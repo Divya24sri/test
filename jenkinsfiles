@@ -11,7 +11,7 @@ stage('Test'){
 echo 'testing the application...'
 }
 }
-stage('Deploy')
+stage('Deploy'){
   steps{
 echo 'deploying the application...'
 }
